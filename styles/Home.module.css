@@ -1,0 +1,132 @@
+.container {
+  padding: 0 2rem;
+  margin: auto;
+  padding: 0;
+  background-color: #eaeaea;
+}
+
+
+
+.tds{
+  width: 300px;
+padding-right:auto;
+  border: red solid 6px;
+  margin: 10px;
+  background:#0000008c;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 14px 16px 20px #0000008c;
+
+
+}
+
+
+
+.grid{
+  box:left;
+  box-sizing: border-box;
+  background-color: #8a1515;
+  margin :auto;
+  box-shadow: 16px 14px 20px rgba(183, 170, 170, 0.55);
+  border-radius: 10px;
+  position: relative;
+
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  width: 350px;
+  border: 2px solid rgb(212, 13, 13);
+  animation: 2s;
+}
+.follow{
+  margin: 10px;
+  padding: 50px;
+  aline-items:center;
+}
+.main{
+  background: #a7b6ce;
+  width: 300px;
+  padding-left: 30px;
+  margin: 12px;
+  box-shadow: 14px 16px 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 2px solid rgb(212, 13, 13);
+  text-align: center;
+
+}
+.card{
+  background: grey;
+  width: 300px;
+  padding-left: 30px;
+  margin: 12px;
+  box-shadow: 14px 16px 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  -moz-box-align: center;
+  border: 2px solid rgb(212, 13, 13);
+}
+.sart{
+  box-sizing: border-box;
+  background-color: #9b9898;
+  margin :auto;
+  box-shadow: 16px 14px 20px #0000008c;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  width: 350px;
+  border: 2px solid rgb(212, 13, 13);
+  border: 2px solid rgb(212, 13, 13);
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(26, 24, 24);
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
